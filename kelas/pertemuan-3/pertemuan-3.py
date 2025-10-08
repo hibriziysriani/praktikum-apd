@@ -1,3 +1,4 @@
-angka = 10
-if angka > 5:
-   print("Angka lebih besar dari 5")
+for i in range(1, 4):
+   for j in range(1, 5):
+      print(f'{i} x {j} = {i * j}')
+      print('') 
